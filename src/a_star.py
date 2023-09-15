@@ -51,8 +51,8 @@ if __name__ == "__main__":
 
     # Test 2
     maze = read_maze("mazes/mini_maze_bfs.txt")
-    # for row in maze:
-    #     print(row)
+    for row in maze:
+        print(row)
     start_pos = (0, 0)
     goal_pos = (2, 2)
     result = a_star(maze, start_pos, goal_pos)
